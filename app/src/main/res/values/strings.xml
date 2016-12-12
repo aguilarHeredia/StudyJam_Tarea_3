@@ -11,7 +11,7 @@
     <string name="main.tv.ocho">8</string>
     <string name="main.tv.nueve">9</string>
     <string name="main.tv.cero">0</string>
-    <string name="main.tv.coma">,</string>
+    <string name="main.tv.punto">.</string>
     <string name="main.tv.igual">=</string>
     <string name="main.tv.suma">+</string>
     <string name="main.tv.resta">-</string>

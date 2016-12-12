@@ -18,13 +18,14 @@
             android:id="@+id/tvComa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/main.tv.coma"
+            android:text="@string/main.tv.punto"
             android:textSize="@dimen/main.tv.num.tamanio"
             android:textColor="@color/color.tv.numeros"
             android:paddingTop="@dimen/main.tv.arr"
             android:paddingBottom="@dimen/main.tv.aba"
             android:background="@color/color.tv.bg.numeros"
             android:gravity="center"
+            android:onClick="crearCadena"
             android:layout_weight="1" />
         <TextView
             android:id="@+id/tvCero"
@@ -37,6 +38,7 @@
             android:paddingBottom="@dimen/main.tv.aba"
             android:background="@color/color.tv.bg.numeros"
             android:gravity="center"
+            android:onClick="crearCadena"
             android:layout_weight="1"/>
 
         <TextView
@@ -50,6 +52,7 @@
             android:paddingBottom="@dimen/main.tv.aba"
             android:background="@color/color.tv.bg.numeros"
             android:gravity="center"
+            android:onClick="calcular"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -66,6 +69,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_above="@id/llCeros"/>
 
     <TextView
@@ -80,6 +84,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_above="@id/llCeros"
         android:layout_toRightOf="@id/tvUno"/>
 
@@ -95,6 +100,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_above="@id/llCeros"
         android:layout_toRightOf="@id/tvDos"/>
 
@@ -110,6 +116,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_above="@id/tvUno"/>
 
     <TextView
@@ -124,6 +131,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_toRightOf="@id/tvCuatro"
         android:layout_above="@id/tvDos"/>
 
@@ -139,6 +147,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_toRightOf="@id/tvCinco"
         android:layout_above="@id/tvTres"/>
 
@@ -154,6 +163,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_above="@id/tvCuatro"/>
 
     <TextView
@@ -168,6 +178,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_toRightOf="@id/tvSiete"
         android:layout_above="@id/tvCinco"/>
     <TextView
@@ -182,6 +193,7 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
+        android:onClick="crearCadena"
         android:layout_toRightOf="@id/tvOcho"
         android:layout_above="@id/tvSeis"/>
 
@@ -213,6 +225,7 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
+            android:onClick="borrar"
             android:background="@color/color.tv.bg.acciones" />
 
         <TextView
@@ -226,6 +239,7 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
+            android:onClick="crearCadena"
             android:background="@color/color.tv.bg.acciones" />
         <TextView
             android:id="@+id/tvMultiplicacion"
@@ -238,6 +252,7 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
+            android:onClick="crearCadena"
             android:background="@color/color.tv.bg.acciones" />
 
         <TextView
@@ -251,6 +266,7 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
+            android:onClick="crearCadena"
             android:background="@color/color.tv.bg.acciones" />
 
         <TextView
@@ -264,6 +280,7 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
+            android:onClick="crearCadena"
             android:background="@color/color.tv.bg.acciones" />
     </LinearLayout>
 
